@@ -1,0 +1,11 @@
+*{
+    background-color: #708ea1;
+    text-align: center;
+}
+
+button{
+    height: 75px;
+    width: 75px;
+    background-color: #161d21;
+    color: #c9c9c9;
+}

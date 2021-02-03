@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(99, 99, 99);
+    color: white;
+    text-align: center;
+    font-size: 1.8em
+}
+
+h1{
+    border: 7px solid rgb(243, 160, 160);
+    box-shadow: 4px 4px 10px rgb(243, 160, 160);
+    margin-left: 800px;
+    margin-right: 700px;
+}

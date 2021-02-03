@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script>
+            // construire un tableau d'objet avec toute les information de vos camarade
+            // Vous allez parcourir le tableau avec l'age de tout vos camarades et m'afficher la moyen d'age de la classe.
+            // vous allez aussi m'afficher le nombre de fille et le nombre de garcon
+            // les personnes qui ont plus de 30 avec leurs noms
+            // le nombre de lettre au total avec tout les prenoms de vos camarades
+        function test() {
+
+                const array = [
+                    
+                {prenom: "Theo",
+                 age: 20,
+                 sexe: "homme"},
+                    
+                 {prenom: "Abdennour",
+                 age: 20,
+                sexe: "homme"},
+                    
+                 {prenom: "Alan",
+                 age: 20,
+                 sexe: "homme"},
+                    
+                 {prenom: "Kenza",
+                  age: 20,
+                  sexe: "femme"},
+                    
+                 {prenom: "Amir",
+                 age: 20,
+                 sexe: "homme"},
+
+                 {prenom: "Barbara",
+                 age: 30,
+                 sexe: "femme"},
+
+                 {prenom: "Imen",
+                 age: 30,
+                 sexe: "femme"},
+            ]
+
+            let map = array.map(item => item.age)
+            let somme = map.length;
+            map = map.reduce((previous, current) => current += previous);
+            map /= somme;
+            const lengthOfArray = array.length
+            console.log('Nombre d\'élèves', lengthOfArray)
+            console.log('Moyenne age des élèves', map.toFixed(2))
+        }
+    </script>
+</head>
+
+
+<body>
+​
+        <h1>A Web Page</h1>
+        <p id="Magic code">A Paragraph</p>
+        <button type="button" onclick=test()>Go futur dev</button>
+​
+</body>
+</html>
